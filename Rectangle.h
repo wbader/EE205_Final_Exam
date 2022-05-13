@@ -12,12 +12,14 @@
 
 #include "Shape.h"
 
-class Rectangle : Shape {
+class Rectangle : public Shape {
 protected:
     double length;
     double width;
 public:
     Rectangle(double newLength, double newWidth);
-
+    double getLength() const;
+    double getWidth() const;
+    double compute_area() override;
 };
 

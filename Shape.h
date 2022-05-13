@@ -13,6 +13,6 @@
 
 class Shape {
 public:
-    virtual double compute_area();
+    virtual double compute_area() = 0;
 };
 
