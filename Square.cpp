@@ -9,3 +9,9 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Square.h"
+
+Square::Square(double newSide) : Rectangle(newSide, newSide) {}
+
+double Square::getSide() {
+    return length;
+}

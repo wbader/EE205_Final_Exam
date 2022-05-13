@@ -13,6 +13,8 @@
 #include "Rectangle.h"
 
 class Square : public Rectangle {
-
+public:
+    explicit Square(double newSide;
+    double getSide();
 };
 
