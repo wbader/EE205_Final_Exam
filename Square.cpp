@@ -9,6 +9,7 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include "Square.h"
+#include "Rectangle.h"
 
 Square::Square(double newSide) : Rectangle(newSide, newSide) {}
 
