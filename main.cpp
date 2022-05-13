@@ -9,6 +9,8 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 
+// Nothing works, I don't know if the code is correct, it seems correct
+
 #include <iostream>
 #include "Rectangle.h"
 #include "Square.h"
